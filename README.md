@@ -12,14 +12,14 @@
 
 <p>The quantity of need is calculated with the folowing formula using stored variables:</p>
 
-<i>(enddate -age)<em>quantity</em>52;</i>
+<i>(enddate -age)<em>quantity</em>*52;</i>
 
 <pre><code>function oscarTheLifetimeSupplier(){<br>
 var age=prompt(‘How old are you?’);<br>
 var enddate=prompt(‘At what age do you think you will leave from this world?’);<br>
 var food=prompt(‘What’s your favorite meal’);<br>
 var quantity=prompt(‘How much of your favorite meal you eat per week?’);<br>
-var quantityneed =(enddate -age)<em>quantity</em>52;<br>
+var quantityneed =(enddate -age)<em>quantity</em>*52;<br>
 alert(‘You will need ‘+quantityneed+’ of ‘+food+’ until ‘+enddate+’ years old’);<br>
 return;}<br>
 oscarTheLifetimeSupplier();</code></pre>
